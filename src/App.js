@@ -9,6 +9,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/IG_exercise.frontend" element={<Home />} />
+          <Route path="/IG_exercise.frontend/" element={<Home />} />
+          <Route path="*" element={<h1> not found </h1>} />
         </Routes>
       </div>
     </Router>
