@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.648a51ab.css",
-    "main.js": "/static/js/main.259911a7.js",
-    "index.html": "/index.html",
-    "main.648a51ab.css.map": "/static/css/main.648a51ab.css.map",
-    "main.259911a7.js.map": "/static/js/main.259911a7.js.map"
+    "main.css": "/IG_exercise.frontend/static/css/main.648a51ab.css",
+    "main.js": "/IG_exercise.frontend/static/js/main.259911a7.js",
+    "index.html": "/IG_exercise.frontend/index.html",
+    "main.648a51ab.css.map": "/IG_exercise.frontend/static/css/main.648a51ab.css.map",
+    "main.259911a7.js.map": "/IG_exercise.frontend/static/js/main.259911a7.js.map"
   },
   "entrypoints": [
     "static/css/main.648a51ab.css",
