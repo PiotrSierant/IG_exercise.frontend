@@ -1,0 +1,150 @@
+[
+  {
+    "_id": "5d9ddef4915161280000853b",
+    "id": 1,
+    "name": "Spread bet",
+    "default": true,
+    "funds": 10000,
+    "profitLoss": 0.23,
+    "accountType": "IGSB",
+    "isDemo": false,
+    "currency": "$"
+  },
+  {
+    "_id": "5d9ddef4915161280000853c",
+    "id": 2,
+    "name": "New Spread bet",
+    "default": false,
+    "funds": 1000,
+    "profitLoss": -679,
+    "accountType": "IGSB",
+    "isDemo": false,
+    "currency": "$"
+  },
+  {
+    "_id": "5d9ddef4915161280000853d",
+    "id": 3,
+    "name": "Spread bet - demo",
+    "default": false,
+    "funds": 20000000,
+    "profitLoss": 16.211,
+    "accountType": "IGSB",
+    "isDemo": true,
+    "currency": "$"
+  },
+  {
+    "_id": "5d9ddef4915161280000853e",
+    "id": 4,
+    "name": "CFD - demo",
+    "default": false,
+    "funds": 20000000,
+    "profitLoss": 16679,
+    "accountType": "IGCFD",
+    "isDemo": true,
+    "currency": "€"
+  },
+  {
+    "_id": "5d9ddef4915161280000853f",
+    "id": 5,
+    "name": "My CFD",
+    "default": false,
+    "profitLoss": 0,
+    "accountType": "IGCFD",
+    "isDemo": false,
+    "currency": "$"
+  },
+  {
+    "_id": "5d9ddef49151612800008540",
+    "id": 6,
+    "name": "Stockbroking - DEMO",
+    "default": true,
+    "funds": 0,
+    "profitLoss": 200045,
+    "accountType": "IGSTK",
+    "isDemo": true,
+    "currency": "$"
+  },
+  {
+    "_id": "5d9ddef49151612800008541",
+    "id": 7,
+    "name": "Stockbroking",
+    "default": true,
+    "funds": 0,
+    "profitLoss": 200045,
+    "accountType": "IGSTK",
+    "isDemo": false,
+    "currency": "€"
+  },
+  {
+    "_id": "6316467cfa10b946000300c4"
+  },
+  {
+    "_id": "63164705fa10b946000300f9"
+  },
+  {
+    "_id": "63164706fa10b946000300fa"
+  },
+  {
+    "_id": "631647dcfa10b94600030134"
+  },
+  {
+    "_id": "631647ddfa10b94600030135"
+  },
+  {
+    "_id": "63164805fa10b94600030149"
+  },
+  {
+    "_id": "63164806fa10b9460003014a"
+  },
+  {
+    "_id": "6316480efa10b9460003014b"
+  },
+  {
+    "_id": "6316480ffa10b9460003014c"
+  },
+  {
+    "_id": "6316486afa10b94600030172"
+  },
+  {
+    "_id": "6316486bfa10b94600030173"
+  },
+  {
+    "_id": "6316486cfa10b94600030174"
+  },
+  {
+    "_id": "6316486dfa10b94600030175"
+  },
+  {
+    "_id": "63164870fa10b94600030176"
+  },
+  {
+    "_id": "63164871fa10b94600030177"
+  },
+  {
+    "_id": "6316488bfa10b94600030178"
+  },
+  {
+    "_id": "6316488cfa10b94600030179"
+  },
+  {
+    "_id": "6316488dfa10b9460003017a"
+  },
+  {
+    "_id": "6316488efa10b9460003017b"
+  },
+  {
+    "_id": "63164898fa10b94600030180"
+  },
+  {
+    "_id": "63164899fa10b94600030181"
+  },
+  {
+    "_id": "631648b1fa10b94600030191"
+  },
+  {
+    "_id": "631648b2fa10b94600030192"
+  },
+  {
+    "_id": "631648c1fa10b94600030194"
+  }
+]

@@ -11,3 +11,21 @@ body {
   display: flex;
   justify-content: center;
 }
+table {
+  border-collapse: separate;
+  width: 100%;
+}
+thead {
+  color: $pastel-yellow;
+}
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+th {
+  border-bottom: 2px solid $pastel-yellow;
+}
+tr:nth-child(even) {
+  background-color: $dark-table-secondary-color;
+}
