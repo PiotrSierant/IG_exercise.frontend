@@ -1,0 +1,96 @@
+@import "../../sass/variables";
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  border-bottom: 1px solid $pastel-yellow;
+  box-shadow: 0 2px 5px $pastel-yellow;
+}
+.navContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1366px;
+}
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: $text;
+  position: relative;
+  z-index: 99;
+  width: 100%;
+}
+ul {
+  max-width: 1366px;
+  padding: 0;
+  margin: 0;
+}
+.menu,
+.close {
+  font-size: 1rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.menu_icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.menu a,
+.close a {
+  text-decoration: none;
+  color: $text;
+  font-weight: 300;
+  padding: 1rem;
+  border-bottom: 3px solid transparent;
+}
+
+.menu a:hover,
+.close a:hover {
+  border-bottom: 3px solid $pastel-yellow;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 830px) {
+  .menu_icon {
+    display: block;
+  }
+  .menu,
+  .close {
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background: $dark-background;
+    left: 0;
+    top: 68px;
+    transition: all 1s ease-in-out;
+  }
+  .menu a,
+  .close a {
+    width: 100%;
+    text-align: center;
+    border-bottom: unset;
+  }
+  .menu a:hover,
+  .close a:hover {
+    background: linear-gradient(to right, $pastel-yellow, $dark-background);
+    border-bottom: unset;
+    transition: all 1s ease-in-out;
+  }
+  ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .close {
+    top: 68px;
+    left: -100%;
+    transition: all 1s ease-in-out;
+  }
+}

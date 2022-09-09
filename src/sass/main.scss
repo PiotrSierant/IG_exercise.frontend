@@ -2,5 +2,12 @@
 @import "reset";
 
 :root {
+  font-size: 16px;
   font-family: $font-base;
+  color: $text;
+}
+body {
+  background-color: $dark-background;
+  display: flex;
+  justify-content: center;
 }
