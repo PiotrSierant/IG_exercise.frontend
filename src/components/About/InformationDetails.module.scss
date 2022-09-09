@@ -1,0 +1,52 @@
+@import "../../sass/variables";
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+  margin-top: -1rem;
+  :hover {
+    transition: all 0.3s ease-in-out;
+    color: $pastel-yellow;
+  }
+}
+.portfolio {
+  margin-top: -1rem;
+  font-family: $font-alt;
+  font-weight: 500;
+  animation: 3s leftToRight infinite linear;
+}
+.portfolio:hover {
+  transition: all 0.3s linear;
+  color: $pastel-yellow;
+}
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-1rem);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(1rem);
+  }
+  80% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1rem);
+  }
+}
