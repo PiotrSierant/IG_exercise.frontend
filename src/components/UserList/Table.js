@@ -1,4 +1,5 @@
 import React from "react";
+import { Details } from "./Details";
 
 export function Table({ renderData, typeAccount }) {
   for (let i = 0; i < renderData.length; i++) {
@@ -20,13 +21,13 @@ export function Table({ renderData, typeAccount }) {
       <tbody>
         {renderData.map((data) => {
           return (
-            <tr key={data.id}>
-              <td>{data.name}</td>
-              <td>
-                {data.currency} {data.profitLoss}
-              </td>
-              <td>{data.accountType}</td>
-            </tr>
+            <Details
+              key={data.id}
+              name={data.name}
+              currency={data.currency}
+              profitLoss={data.profitLoss}
+              accountType={data.accountType}
+            />
           );
         })}
       </tbody>

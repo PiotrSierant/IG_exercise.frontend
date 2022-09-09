@@ -16,6 +16,7 @@ export function UserList({ data, typeAccount }) {
       setLoading(false);
     }
   }, [data]);
+
   return (
     <main className={styles.main}>
       {isLoading ? (
