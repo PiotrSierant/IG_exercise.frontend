@@ -40,16 +40,16 @@ export function InformationDetails() {
         Portfolio
       </a>
       <section className={styles.media}>
-        <a href={twitter}>
+        <a href={twitter} title="twitter">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href={instagram}>
+        <a href={instagram} title="instagram">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href={linkedIn}>
+        <a href={linkedIn} title="linkedIn">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href={github}>
+        <a href={github} title="github">
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </section>
