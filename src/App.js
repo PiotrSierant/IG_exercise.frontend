@@ -10,11 +10,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/IG_exercise.frontend/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/IG_exercise.frontend/About/" element={<About />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/IG_exercise.frontend/*" element={<NotFound />} />
       </Routes>
     </Router>
   );
