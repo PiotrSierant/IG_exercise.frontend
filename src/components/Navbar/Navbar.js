@@ -10,10 +10,10 @@ export function Navbar() {
     setIsOpen(!isOpen);
   };
   const [isOpen, setIsOpen] = useState(false);
-  const menuList = MenuList.map(({ url, title, id }) => {
+  const menuList = MenuList.map(({ url, title, id, testid }) => {
     return (
       <NavLink key={id} to={url} onClick={handleClickMenu}>
-        <li>{title}</li>
+        <li data-testid={testid}>{title}</li>
       </NavLink>
     );
   });
