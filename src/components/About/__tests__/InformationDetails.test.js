@@ -1,6 +1,5 @@
 import { render, screen } from "@testing-library/react";
 import { InformationDetails } from "../InformationDetails";
-
 describe("about me test", () => {
   describe("check my data", () => {
     it("img should have alt atribute", async () => {
